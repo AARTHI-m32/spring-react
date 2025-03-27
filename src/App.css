@@ -9,6 +9,7 @@
 }
 .Form{
   font-size: 17px;
+  text-align: center;
   border : solid 1px black;
   width:30%;
  
@@ -21,8 +22,41 @@
 }
 
 .Form-button{
-  width: 10%;
+ 
   height: 30px;
   font-size: 15px;
   background-color: skyblue;
+}
+
+.details{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+.ndetails{
+  border : solid 1px black;
+  margin:4px;
+  padding: 5px;
+  text-align: center;
+}
+
+.login-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  
+}
+.login{
+  
+  border : solid 1px black;
+  width: 30%;
+  margin-top: 180px;
+  margin-left: 500px;
+  text-align: center;
+  font-size: 17px;
+ 
 }
